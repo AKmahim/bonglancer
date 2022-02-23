@@ -1,245 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimal-ui"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" href="./assets/img/bonglancer-2.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/scss/style.css">
-    <title>Bonglancer</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Dirt Crew Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
 
-  <body>
-    <div
-      class="overlay"
-      style="position: fixed;background:black;width:100vw;height:100vh;left:0;top:0;z-index: 100;"
-    ></div>
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
 
-    <div class="rotate-phone-notice">
-      <img src="assets/img/RotatePhone.png" class="rotate-phone-notice__img" />
-    </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#our_facility">Our Facility</a>
+            <a href="#rate">Rate</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <div class="header">
-      <div class="rotate-phone-notice">
-        <img
-          src="assets/img/RotatePhone.png"
-          class="rotate-phone-notice__img"
-        />
-      </div>
+        <div class="icons">
+            
+            <i class="ri-search-2-line" id="search-icon"></i>
+            <i class="ri-heart-fill" id="heart-icon"></i>
+            <i class="ri-apps-2-fill" id="menu-bars"></i>
 
-      <div class="logo">
-        <a href="./" class="">
-          <?xml version="1.0" encoding="utf-8"?>
-          <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 350 50" style="enable-background:new 0 0 350 50;" xml:space="preserve">
-          <style type="text/css">
-            .st0{fill:#FFFFFF;}
-            .st1{font-family:'ArialRoundedMTBold';}
-            .st2{font-size:50.8139px;}
-          </style>
-          <text transform="matrix(1 0 0 1 19.3564 33.6436)" class="st0 st1 st2">Bong Lancer</text>
-          </svg>
-
-        </a>
-      </div>
-      <div class="menu-toggler" data-cursor>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-
-    <div class="menu">
-      <div class="primary-links">
-        <a href="./work.html"><span class="link-special">Work</span></a>
-        <a href="./contact.html"><span class="link-special">Contact</span></a>
-      </div>
-      
-    </div>
-
-    <div class="loaded">
-      <div class="intro">
-        <div class="flow-images">          
-          <img src="./assets/img/1.jpg" alt="" />
-          <img src="./assets/img/2.jpg" alt="" />
-          <img src="./assets/img/3.jpg" alt="" />
-          <img src="./assets/img/4.jpg" alt="" />
-          <img src="./assets/img/5.jpg" alt="" />
-          <img src="./assets/img/seo.jpg" alt="" />
-         
         </div>
-        <div class="logo">
-          <img src="./assets/img/l1.svg" alt="" />
-          <img src="./assets/img/l2.svg" alt="" />
-          <img src="./assets/img/l3.svg" alt="" />
-          <img src="./assets/img/l4.svg" alt="" />
-        </div>
-        <div class="scene-1">
-          <div class="op-05">
-            <p class="text-center" data-sep="0s">YOUR BUSINESS SOLUTION</p>
-          </div>
-          <h2 class="text-center" data-sep="0.5s">
-            GIVING WEB AND GRAPHICS SOLUTION WORLDWIDE
-          </h2>
-        </div>
-        <div data-cursorh class="enter"><span>Scroll</span></div>
-        <span class="scroll-line"></span>
-      </div>
+    </header>
 
-      <div class="hero" data-theme="white">
-        <div class="header">
-          <div class="logo">
-            <a href="./">
-              <?xml version="1.0" encoding="utf-8"?>
-              <svg
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 100 21"
-                style="enable-background:new 0 0 100 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FFFFFF"
-                  d="M28,0.2V21h5.5V10.8L44.1,21H46V0.3h-5.5v10.1L29.9,0.2H28z"
-                />
-                <path
-                  style="fill:#FFFFFF"
-                  d="M1.9,21H0l0.1-5.6c3.4-3.1,5.3-5,5.3-5L15.7,0.2h1.9V21h-5.4V10.8L1.9,21z"
-                />
-                <path
-                  style="fill:#FFFFFF"
-                  d="M74.9,0.2h1.9V21h-5.3v-9.2L67,16.4h-0.6l-4.3-4.6V21h-5.3V0.2h1.9l8,9L74.9,0.2z"
-                />
-                <path
-                  style="fill:#FFFFFF"
-                  d="M92.5,16.2h7.4V21H87.2V0.3h5.3V16.2z"
-                />
-              </svg>
-            </a>
-          </div>
-          <div class="menu-toggler">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+    <!-- =========== home section ======== -->
+    <section class="home section" id="home">
+        <div class="contianer">
+                <div class="home_logo">
+                    <img src="images/home_logo.png" alt="">
+                </div>
+                <div class="home_data">
+                        <h1 class="home_title"><q> Speakeasy <span>bar</span></q></h1>
+                        <p class="home_data_p">
+                                It's a <span><q>secret access</q></span> place Not everyone is invited <br>
+                                If you don't have the access code.
+                                You can't get in.
+                        </p>
+                </div>
+                <div class="access_check_form">
+                    <form action="" method="POST" class="access_check_form2">
+                        <input type="text" name="code" autocomplete="false" placeholder=" GET ACCESS" class="input_box">
+                        <br><input type="submit" value="Submit" class="submit_button">
+                    </form>
+                </div>
         </div>
-        <div class="cover-anim">
-          <div class="cover-anim-bgs mobile">
-            <a href="./web.html" class="cover-anim-bg"
-              ><img src="./assets/img/4.jpg" alt=""
-            /></a>
-            <!-- <a href="./jennair.html" class="cover-anim-bg"
-              ><img src="./assets/img/jenair.jpg" alt=""
-            /></a> -->
-            <a href="./graphics.html" class="cover-anim-bg offset-4-mb"
-              ><img src="./assets/img/3.jpg" alt=""
-            /></a>
-            <a href="./seo.html" class="cover-anim-bg offset-3-mb"
-              ><img src="./assets/img/seo.jpg" alt=""
-            /></a>
-            <a href="./marketing.html" class="cover-anim-bg"
-              ><img src="./assets/img/1.jpg" alt=""
-            /></a>
-            <a href="./animation.html" class="cover-anim-bg"
-              ><img src="./assets/img/3.jpg" alt=""
-            /></a>           
-            <a
-              href="#"
-              class="cover-anim-bg"
-              style="background-color: black;"
-            ></a>
-          </div>
-          <div class="cover-anim-titles desctop">
-            <div class="cover-anim-title">
-              <a class="text-hero-title" href="./web.html"
-                >Web <br/> Development</a
-              >
-              <p class="text-subtitle">A complete web solution platform</p>
-              <a class="btn-hero d-none d-mb-block" href="./web.html"
-                >View Case Study</a
-              >
+
+
+
+    </section>
+
+    <!-- ====== our Facility ========  -->
+   <section class="about" id="our_facility">
+       <div class="container">
+           <h1 class="about_title">
+               ABOUT <span>The Dirt Crew Fitness</span>
+           </h1>
+           <h2 class="title_work">
+                Fitness – Group Fitness – Bodybuilding – Powerlifting – Personal Training  
+           </h2>
+
+           <div class="about_data flex">
+                <div class="list_data">
+                    <h1 class="list_title">Our Facility   : </h1>
+                    <ul>
+                        <li>Locker rooms with private showers and day lockers</li>
+                        <li>Two levels of cardio equipment</li>
+                        <li>Dumbbells up to 150 lbs</li>
+                        <li>7 squat rack</li>
+                        <li>4 deadlift platforms with bumper plates</li>
+                    </ul>
+                </div>
+                <div class="img_data">
+                    <div class="card">
+                        <div class="heading">
+                                <img src="images/weightlifter.png" alt="">
+                                <h2>Weight Training</h2>
+                        </div>
+                        <p>From bodybuilding to powerlifting and everything in between, <br> the Dirt Crew Fitness has the equipment to help you reach your <br> goals. With dumbells up to 150lbs, 7 squat racks, 5 deadlift  platforms, <br> 2 competition benches, and a variety of plate loaded  and  pin loaded machines, we have everything you need.</p>
+                    </div>
+                    <div class="card">
+                            <div class="heading">
+                                    <img src="images/weightlifting.png" alt="">
+                                    <h2>Weight Training</h2>
+                            </div>
+                        <p>From bodybuilding to powerlifting and everything in between, <br> the Dirt Crew Fitness has the equipment to help you reach your <br> goals. With dumbells up to 150lbs, 7 squat racks, 5 deadlift <br> platforms, 2 competition benches, and a variety of plate loaded <br> and pin loaded machines, we have everything you need.</p>
+                            
+                    </div>
+
+                    <div class="card">
+                            <div class="heading">
+                                    <img src="images/exercise.png" alt="">
+                                    <h2>Weight Training</h2>
+                            </div>
+                        <p>From bodybuilding to powerlifting and everything in between, <br> the Dirt Crew Fitness has the equipment to help you reach your <br> goals. With dumbells up to 150lbs, 7 squat racks, 5 deadlift <br> platforms, 2 competition benches, and a variety of plate loaded <br> and pin loaded machines, we have everything you need.</p>
+                            
+                        </div>
+
+                </div>
+                
+           </div>
+       </div>
+   </section>
+
+
+   <section class="rate" id="rate">
+        <div class="container">
+            <h1 class="rate_title">Our <span>Rates</span></h1>
+            <div class="container2">
+                <h1 class="monthly_rate">Monthly Rates</h1>
+                    <div class="wrapper">
+                        <div class="card">
+                            <div class="top_data">
+                                <h3>Regular Pack</h3>
+                                <p><span>$35</span>/Monthly</p>
+                                <p class="initiation">$35 initiation</p>
+                                <a href="#" class="btn">Join Now</a>
+                            </div>
+                            
+                        </div>
+                        <div class="card">
+                            <div class="top_data">
+                                <h3>Regular Pack</h3>
+                                <p><span>$35</span>/Monthly</p>
+                                <p class="initiation">$35 initiation</p>
+                                <a href="#" class="btn">Join Now</a>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="top_data">
+                                <h3>Regular Pack</h3>
+                                <p><span>$35</span>/Monthly</p>
+                                <p class="initiation">$35 initiation</p>
+                                <a href="#" class="btn">Join Now</a>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="top_data">
+                                <h3>Regular Pack</h3>
+                                <p><span>$35</span>/Monthly</p>
+                                <p class="initiation">$35 initiation</p>
+                                <a href="#" class="btn">Join Now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
             </div>
-            <div class="cover-anim-title">
-              <a class="text-hero-title" href="./graphics.html">Graphics Solution</a>
-              <p class="text-subtitle">Your Best Graphics Solution Partner</p>
-              <a class="btn-hero d-none d-mb-block" href="./graphics.html"
-                >View Case Study</a
-              >
-            </div>
-            <div class="cover-anim-title">
-              <a class="text-hero-title" href="./seo.html">SEO</a>
-              <p class="text-subtitle">You Will Get Best SEO Expert</p>
-              <a class="btn-hero d-none d-mb-block" href="./seo.html"
-                >View Case Study</a
-              >
-            </div>
-            <div class="cover-anim-title">
-              <a class="text-hero-title" href="./marketing.html">Digital <br>Marketing</a>
-              <p class="text-subtitle">
-                Your Digital Marketing Solution
-              </p>
-              <a class="btn-hero d-none d-mb-block" href="./marketing.html"
-                >View Case Study</a
-              >
-            </div>
-            <div class="cover-anim-title">
-              <a class="text-hero-title" href="./animation.html">Animation</a>
-              <p class="text-subtitle">
-                We Can Give You Animation And 3D Graphics Solution
-              </p>
-              <a class="btn-hero d-none d-mb-block" href="./animation.html"
-                >View Case Study</a
-              >
-            </div>
-            <!-- <div class="cover-anim-title">
-              <a class="text-hero-title" href="./gts-living-foods.html"
-                >GT&apos;S<br />Living Foods</a>
-              <p class="text-subtitle">An enlightening online presence</p>
-              <a
-                class="btn-hero d-none d-mb-block"
-                href="./gts-living-foods.html"
-                >View Case Study</a
-              >
-            </div>             -->
-            <div class="cover-anim-title full-screen">
-              <a class="text-hero-title" href="./about.html">Get to know us</a>
-              <div class="about-us-links">
-                <a href="./work.html" cover-delay="1700">Work</a>
-                <a href="./contact.html" cover-delay="1700">Contact</a>
-              </div>
-            </div>
-          </div>
-          <span class="scroll-line active"></span>
         </div>
-      </div>
-    </div>
-    <script>
-      var isIndex = true;
-    </script>
+   </section>
 
-    <script src="./assets/bundle.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-61533628-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+   <section class="gallery" id="gallery">
+       <div class="container">
+           <h1 class="gallery_title">
+               Our <span>Gallery</span>
+           </h1>
 
-      gtag("config", "UA-61533628-2");
-    </script> -->
-  </body>
+           <div class="link_list flex">
+               <a href="#" class="btn2">Functional Traning Room</a>
+               <a href="#" class="btn2">Cardio Equipment</a>
+               <a href="#" class="btn2">Free Wieghts</a>
+               <a href="#" class="btn2">Plate Loaded Hammer Strength</a>
+
+           </div>
+
+           <div class="gallery_wrapper">
+               <div class="gallery_card">
+                   <img src="images/g1.jpg" alt="">
+               </div>
+
+               <div class="gallery_card">
+                    <img src="images/g2.jpg" alt="">
+                </div>
+                <div class="gallery_card">
+                   <img src="images/g3.jpg" alt="">
+               </div>
+               <div class="gallery_card">
+                    <img src="images/g4.jpg" alt="">
+                </div>
+                 <div class="gallery_card">
+                   <img src="images/g5.jpg" alt="">
+               </div>
+               <div class="gallery_card">
+                    <img src="images/g6.jpg" alt="">
+                </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- ------------ footer section ------------- -->
+   <section class="footer" id="contact">
+       <div class="footer_container grid">
+           <div class="footer_content grid">
+               <div class="footer_data grid">
+                   <h2 class="footer_title">Contact Us!</h2>
+                   <p class="footer_text"><i class="ri-map-pin-fill"></i> Central New York city</p>
+                   <p class="footer_text"><i class="ri-phone-line"></i> +123456789</p>
+                   <p class="footer_text"><i class="ri-mail-line"></i> thedirtcrewfitness@gmail.com</p>
+               </div>
+
+               <div class="footer_data">
+                    <h2 class="footer_title">Connect with us!</h2>
+
+                   <div class="social flex">
+                        <a href="#" class="social_link"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="social_link"><i class="ri-instagram-line"></i></a>
+
+                   </div>
+               </div>
+
+               <div class="footer_data">
+                    <h2 class="footer_title">Instagram</h2>
+                    <p>........</p>
+               </div>
+           </div>
+           <div class="copyright flex">
+               <p class="copy_text"><i class="ri-copyright-line"></i> Copyright The dirt crew fitness 2021.all right reserved.</p>
+           </div>
+       </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
 </html>
